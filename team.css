@@ -1,0 +1,55 @@
+body{
+    background: #FAFAFA;
+    color: #000;
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    margin-left: 20px;
+    
+}
+
+header{
+    margin-top: 71px;
+}
+
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#whoWeAre{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+   
+}
+
+#main{
+    margin-top:60px ;
+    display: grid;
+    grid-template-columns: repeat(2, 211px);
+    grid-template-rows: repeat(3, 132.71908569335938px);
+    row-gap: 172px;
+    column-gap: 23px;
+    
+
+    
+}
+
+img{
+    height: 209px;
+width: 138.71908569335938px;
+}
+
+.Roles{
+    
+}
