@@ -1,59 +1,73 @@
+*{
+box-sizing: content-box;
+margin: 0;
+padding: 0;
+}
+
 body{
-    background: #FAFAFA;
-    color: #000;
-    font-family: 'PT Serif', serif;
+    margin-left: 12px;
     font-size: 14px;
-    margin-left: 20px;
-    
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
     margin-top: 71px;
 }
 
-h1{
-    margin-bottom:38px ;
+#theCreativeCrew{
+    font-family: 'PT Serif', serif;
+    letter-spacing: -0.045em;
 }
-
-*{
-    box-sizing: content-box;
-    margin: 0;
-    padding: 0;
-}
-
-
 #whoWeAre{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
+margin-top: 38px;
+text-transform: uppercase;
+font-weight: 600;
+font-size: 18px;
 }
 
-h4{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-   
+#firstText{
+    margin-top: 10px;
 }
 
 #main{
-    margin-top:60px ;
+    margin-top:50px ;
     display: grid;
-    grid-template-columns: repeat(2, 211px);
-    grid-template-rows: repeat(3, 132.71908569335938px);
-    row-gap: 172px;
-    column-gap: 23px;
-    
-
-    
+    grid-template-columns: repeat(2, 140px);
+    grid-template-rows: repeat(3, 265px);
+    row-gap: 92px;
+    column-gap: 42px;
 }
 
 img{
     height: 209px;
-width: 138.71908569335938px;
+    width: 138.71908569335938px;
+
 }
 
-.Roles{
+.getDown{
+    position: relative;
+    top: 40px;
+}
+
+.leftRoles{
+    position: absolute;
+    left: 60px;
+    bottom: 80px;
     
+
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'PT Serif';
+
+}
+
+.rightRoles{
+    position: absolute;
+  
+
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'PT Serif';
 }
