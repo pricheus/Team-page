@@ -11,6 +11,10 @@ header{
     margin-top: 71px;
 }
 
+h1{
+    margin-bottom:38px ;
+}
+
 *{
     box-sizing: content-box;
     margin: 0;
