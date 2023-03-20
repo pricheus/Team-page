@@ -5,9 +5,13 @@ padding: 0;
 }
 
 body{
-    margin-left: 12px;
+    
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header{
@@ -35,7 +39,7 @@ font-size: 18px;
     grid-template-columns: repeat(2, 140px);
     grid-template-rows: repeat(3, 265px);
     row-gap: 92px;
-    column-gap: 42px;
+    column-gap: 32px;
 }
 
 img{
@@ -50,9 +54,10 @@ img{
 }
 
 .leftRoles{
-    position: absolute;
-    left: 60px;
-    bottom: 80px;
+    position: relative;
+    left: 80px;
+    bottom: 175px;
+    
     
 
     transform: rotate(90deg);
@@ -63,11 +68,92 @@ img{
 }
 
 .rightRoles{
-    position: absolute;
-  
+    position: relative;
+    left: 80px;
+    bottom: 175px;
+    
+    
 
     transform: rotate(90deg);
     text-transform: uppercase;
     font-weight: 400;
     font-family: 'PT Serif';
+}
+
+@media screen and (min-width:) {
+    
+}
+
+@media screen and (min-width: 1024px) {
+    *{
+        box-sizing: content-box;
+        margin: 0;
+        padding: 0;
+        }
+        
+    header{
+        margin-top: 110px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+
+    }
+
+    #main{
+        margin-top:50px ;
+        display: grid;
+        grid-template-columns: repeat(3, 258px);
+        grid-template-rows: repeat(2, 446.25px);
+        row-gap: 10px;
+       
+    }
+
+    #theCreativeCrew{
+        font-family: 'PT Serif', serif;
+        letter-spacing: -0.045em;
+        position: relative;
+        right: 14%;
+    }
+
+    #firstDiv{
+        position: relative;
+        left: 7%;
+    }
+
+    img{
+        height: 347px;
+    width: 238px;
+    column-gap: 700px;
+    row-gap: 100px;
+    }
+
+    
+.leftRoles{
+    position: relative;
+    left: 120px;
+    bottom: 260px;
+    }
+
+.rightRoles{
+    position: relative;
+    left: 120px;
+    bottom: 260px;
+    }
+
+   #blackDeveloper{
+    position: relative;
+    top: 80px;
+   }
+
+   #Art_director{
+    position: relative;
+    top: 80px;
+   }
 }
