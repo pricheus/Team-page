@@ -80,8 +80,115 @@ img{
     font-family: 'PT Serif';
 }
 
-@media screen and (min-width:) {
+@media screen and (min-width:480px) and (max-width:1023px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header{
+        margin-top: 110px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #theCreativeCrew{
+        font-family: 'PT Serif', serif;
+        letter-spacing: -0.045em;
+        position: relative;
+        right: 14%;
+    }
+
+    #firstDiv{
+        position: relative;
+        left: 7%;
+    }
+
+    #main{
+        margin-top:50px ;
+        display: grid;
+        grid-template-columns: repeat(3, 218px);
+        grid-template-rows: repeat(2, 406.25px);
+        row-gap: 10px;
+       
+    }
+
+    img{
+        height: 287px;
+    width: 178px;
+    }
+
     
+.leftRoles{
+    position: relative;
+    left: 80px;
+    bottom: 210px;
+    }
+
+.rightRoles{
+    position: relative;
+    left: 80px;
+    bottom: 210px;
+    }
+
+
+}
+
+@media screen and (min-width:481px) and (max-width:750px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header{
+        margin-top: 110px;
+        display: block;
+
+    }
+
+    #theCreativeCrew{
+        font-family: 'PT Serif', serif;
+        letter-spacing: -0.045em;
+        position: relative;
+        right: 14%;
+    }
+
+    #firstDiv{
+        position: relative;
+        left: 7%;
+    }
+
+    #main{
+        margin-top:50px ;
+        display: grid;
+        grid-template-columns: repeat(2, 190px);
+        grid-template-rows: repeat(3, 290px);
+        row-gap: 92px;
+        column-gap: 32px; 
+    }
+
+    img{
+        height: 287px;
+    width: 178px;
+    }
+
+    
+.leftRoles{
+    position: relative;
+    left: 100px;
+    bottom: 230px;
+    }
+
+.rightRoles{
+    position: relative;
+    left: 100px;
+    bottom: 230px;
+    }
+
+
 }
 
 @media screen and (min-width: 1024px) {
